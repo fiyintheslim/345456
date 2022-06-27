@@ -1,0 +1,55 @@
+
+.section{
+    background: #fff;
+    margin-bottom: 15px;
+}
+.sectionTitle{
+    height: 42px;
+    border-bottom: 1px solid #f6f6f6;
+    padding: 0 15px;
+    color: #333;
+    line-height: 42px;
+    h3{
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+.sectionBody{
+    padding: 10px 15px;
+}
+.mobile{
+    display: flex;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px;
+    height: 150px;
+    font-size: 14px;
+}
+.cardImage{
+    position: relative;
+    margin-right: 10px;
+    width: 30%;
+    height: 100%;
+
+    img{
+        object-fit: contain;
+    }
+}
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly
+}
+
+.shipping{
+    background:#009688;
+    padding: 3px 6px;
+    color: #fff;
+    border-radius: 2px;
+}
+.name{
+    color: #4b566a;
+}
+.price{
+    color: red;
+}
